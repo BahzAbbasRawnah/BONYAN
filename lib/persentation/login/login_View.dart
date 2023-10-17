@@ -247,29 +247,29 @@ const SizedBox(height: 10,),
 
   void _signin() async{
 
-    String email = emailController.text;
-    //String birthday = birthDayController.text;
-    String password = passwordController.text;
+    // String email = emailController.text;
+    // //String birthday = birthDayController.text;
+    // String password = passwordController.text;
 
-    User? user = await _auth.signInWithEmailAndPassword(email, password);
+    // User? user = await _auth.signInWithEmailAndPassword(email, password);
 
 
     Navigator.pushReplacementNamed(context, Routes.newhome);
 
 
-    if(user!= null){
-      print("User is successfully login");
+    // if(user!= null){
+    //   print("User is successfully login");
 
 
 
 
-      Navigator.pushReplacementNamed(context, Routes.mainRoute);
+      // Navigator.pushReplacementNamed(context, Routes.mainRoute);
 
 
 
-    }else{
-      _displayDialog('كلمة المرور او اسم المستخدم خطآ.');
-    }
+    // }else{
+    //   _displayDialog('كلمة المرور او اسم المستخدم خطآ.');
+    // }
 
 
 

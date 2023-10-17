@@ -3,13 +3,16 @@ import 'package:flutter/material.dart';
 
 import 'app/app.dart';
 import 'firebase_options.dart';
-
+// import 'package:firebase_messaging/firebase_messaging.dart';
 void main() async {
 
-  WidgetsFlutterBinding.ensureInitialized();
-  FirebaseApp app = await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  // WidgetsFlutterBinding.ensureInitialized();
+  // FirebaseApp app = await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
+   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  
   runApp( MyApp());
 }
 
