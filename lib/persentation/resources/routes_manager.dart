@@ -1,3 +1,4 @@
+import 'package:bonyan/room.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:bonyan/persentation/Main/main_view.dart';
@@ -42,7 +43,8 @@ class RouteGenerator {
 
 
       case Routes.loginRoute:
-        return MaterialPageRoute(builder: (_) => const LoginView());
+        return MaterialPageRoute(builder: (_) => Room());
+        // return MaterialPageRoute(builder: (_) => const LoginView());
 
       case Routes.mainRoute:
         return MaterialPageRoute(builder: (_) => const MainView());
