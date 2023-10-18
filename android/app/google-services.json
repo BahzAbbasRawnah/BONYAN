@@ -1,0 +1,25 @@
+{
+    "project_info": {
+        "project_number": "661108365772",
+        "project_id": "bonyan-7ab4d",
+        "storage_bucket": "bonyan-7ab4d.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:661108365772:android:62cdbeae66644e47452569",
+            "android_client_info": {
+                "package_name": "com.bonyan.bonyan"
+            }
+        },
+        "oauth_client": [],
+        "api_key": [{
+            "current_key": "AIzaSyCr4Jom4pAQFgy9o50ydlolrLBFoV41h_Y"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": []
+            }
+        }
+    }],
+    "configuration_version": "1"
+}
